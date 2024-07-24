@@ -1,0 +1,89 @@
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 4em;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+.projects-title h1{
+    text-align: center;
+    font-size: 50px;
+    color:#1f2235;
+    margin-bottom: 1.5em;
+    font-family: 'Poppins ExtraBold';
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+.gallery-title h1{
+    text-align: center;
+    font-size: 42px;
+    color:#1f2235;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-family: 'Poppins Bold';
+}
+
+#calc-overview{
+    background-image: url(../../assets/Cards/calc_bg.jpeg) !important;
+}
+#calc-open .card-btn{
+    background-color: rgb(140, 120, 163) !important;
+}
+#calc-open{
+    background:linear-gradient(#592899, #a47eeb) !important;
+}
+#web-overview{
+    background-image: url(../../assets/Cards/web_bg.jpeg) !important;
+}
+#web-open .card-btn{
+    background-color: rgb(129, 163, 120) !important;
+}
+#web-open{
+    background:linear-gradient(#289964, #7eeb9f) !important;
+}
+.row{
+    --bs-gutter-x: .5rem;
+    flex-wrap: nowrap;
+    padding-left: 7em;
+    justify-content:center;
+    
+}
+.card-outer{
+    margin-bottom: 3em;
+}
+#overview-btn-web{
+    background-color: rgb(120, 163, 139);
+}
+#overview-btn-web:hover{  
+background-color: rgb(86, 119, 101);
+}
+#overview-btn{
+        background-color: rgb(133, 120, 163);
+    }
+#overview-btn:hover{  
+    background-color: rgb(103, 86, 119);
+}
+#desc{
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-options{
+    text-align: center;
+    color:#1f2235;
+    margin-top: 3em;
+    padding-bottom: 1em;
+    font-family: 'Poppins Light';
+}
+.gallery-options h3{
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+@media screen and (max-width: 810px) {
+    .row{
+        display:inline;
+        
+    }
+}
