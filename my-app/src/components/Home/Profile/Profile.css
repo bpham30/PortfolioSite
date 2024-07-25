@@ -21,11 +21,11 @@
     width: 300px;
     margin: 0px 0px 25px 25px;
     border: 3px solid #654286;
-    background-image: url('../../../assets/Home/profilephoto.png');
+    background-image: url('../../../assets/Home/photo.jpeg');
     background-size:165%;
     background-repeat: no-repeat;
-    background-position:bottom;
-    background-position-y:-150px;
+    background-position:center;
+
     
 }
 .profile-picture:hover{
